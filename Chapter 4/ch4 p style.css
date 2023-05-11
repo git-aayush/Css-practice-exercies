@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 42px;
+    margin: 6px;
+    padding: 2px;
+}
+.ayush{
+    height: 90vh;
+    width: 50%;
+    background-color: red;
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+    visibility: hidden;
+}
+.vaibhav{
+    height: 90vh;
+    width: 50%;
+    background-color: green;
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+}
+footer{
+    background-color:rgb(205, 63, 117);
+    color: skyblue;
+    font-family: 'Baloo Bhai 2', cursive;
+    /* text-align: center; */
+    /* padding: 5px; */
+    text-transform: uppercase;
+}
+.x{
+    text-align: center;
+    padding: 5px;
+}

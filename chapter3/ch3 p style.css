@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid  greenyellow;
+}
+.content{
+    height: 85vh;
+    background-color: burlywood;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid rgb(127, 223, 43);
+    box-sizing: content-box;
+}
+footer{
+    background-color: aqua;
+    margin: 5px;
+    padding: 3px;
+}
+.center{
+    text-align: center;
+}

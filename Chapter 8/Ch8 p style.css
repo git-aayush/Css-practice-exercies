@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    height: 10vh;
+}
+main{
+    background-color: palevioletred;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar {
+    background-color: red;
+    height: 3px;
+    width: 100vw;
+    animation-name: mybar;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    /* width: 1vw;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out; */
+}
+/* .bar:hover{
+    width: 100vw;
+} */
+@keyframes mybar {
+    0% {
+        width: 0vw;
+    }
+
+    50% {
+        width: 70vw;
+    }
+
+    100% {
+        width: 100vw;
+    }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+img{
+    animation: rotate 3s linear 1s infinite;
+}

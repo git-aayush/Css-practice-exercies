@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    background-color: darkgoldenrod;
+    color: lightgreen
+}
+.main{
+    color: darkred;
+}
+.ayush{
+    width: 2500px;
+    height: 2000px;
+    border: 3px solid black;
+    /* background-image: url('neha.jpg');
+    background-repeat: repeat-x;
+    background-position: local;
+    background-color: aqua;
+    background-attachment: fixed;
+    */
+    background: grey url('neha.jpg') top 10px center  no-repeat;
+}

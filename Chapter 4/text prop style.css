@@ -1,0 +1,12 @@
+p{
+    background-color: palegreen;
+    height: 200px;
+    width: 900px;
+    /* text-decoration: underline; */
+    color: blueviolet;
+    text-transform: uppercase;
+    /* line-height: 10px; */
+    font-size: 10px;
+    /* font-family: 'Noto Sans', Montserrat, ubuntu ,'Times new roman', georgia, 'courier new' ; */
+    font-family: 'Montserrat', sans-serif;
+}
